@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    width: 1250px;
+}
+.logo img{
+    width: 141px;
+    height: 30px;
+   
+}
+.center-nav{
+    display: flex;
+    gap: 20px;
+   
+}
+.serach{
+    display: flex;
+    border: 2px solid rgb(177, 176, 176);
+    height: 44px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.center-nav input{
+    width: 500px;
+    border: none;
+    overflow: hidden;
+    /* border-radius: 20px; */
+}
+.serach button{
+    padding: 5px 22px;
+    border: none;
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+}
+.mic{
+    
+    border: 1px solid transparent;
+    text-align: center;
+    padding-top: 8px;
+    width: 44px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #dddbdb;
+
+}
+.side-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* margin-right: 50px; */
+}
+.tags{
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px;
+    border-top: 1px solid #f4f2f2;
+    
+}
+.tag{
+    border: 2px solid gray;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+/* .tag-dark, .tag-light{
+    border: 2px solid gray;
+    padding: 8px;
+    border-radius: 30px;
+    width: 90px;
+    height: 40px;
+    text-align: center; 
+}*/
+.dark{
+    border: 2px solid black;
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+.light{
+    background-color: rgb(238, 238, 238);
+    color:rgb(67,67,67) ;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side-icons img{
+    width: 30px;
+}
+.side-icons p{
+    font-size: 10px;
+    margin-top: -5px;
+}
+.bar{
+    margin-top: 7px;
+}
+.main-container{
+   width: 100%;
+}
+main{
+    min-height: 100vh;
+    background-color: rgb(240, 238, 238);
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(310px , 1fr));
+}
+.card{
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+
+}
+.avatar-content{
+     padding-top: 10px;
+     display: flex;
+     gap: 5px;
+}
+.card h3{
+    font-size: 18px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.channal-content{
+    font-size: 16px;
+    font-weight: bold;
+}
+.content-status{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+}
+
+@media only screen and(max-width:560px) {
+    .side-nav{
+        background-color: blue;
+
+}
+    
+}
+

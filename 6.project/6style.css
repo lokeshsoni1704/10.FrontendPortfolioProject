@@ -1,0 +1,249 @@
+
+:root {
+    --purple500: #18053c;
+    --purple300: #251044e9;
+    --purple600: #1b0058;
+    --red600: #ec0e0a;
+    --body: #f9f6ff;
+    --max-width: 1200px;
+  }*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    padding: 10px 35px;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+    border: none;
+}
+button:hover{
+    opacity: 0.8;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+   box-shadow: 5px 5px 5px rgba(6, 1, 1, 0.7);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+.nav{
+    background-color: #0a0639e9;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(1,0,0,0.5);
+}
+
+.navigation {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding:10px  40px;
+    
+}
+.navigation h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+.hero_section{
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    color: white;
+    display: grid;
+   place-items: center;
+    text-align: center;
+}
+.hero_section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    
+}
+.container h1{
+    font-size: 97px;
+}
+.container h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+.hero_section .container p{
+    font-size: 19px;
+    width: 900px;
+}
+.music_section{
+    background-color:  rgb(24 5 55);
+    padding-top: 50px;
+   
+}
+.music_section .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 30px;
+    align-items: center;
+    color: white;
+    
+}
+.primary-btn{
+    background-color: var(--red600);
+   
+}
+.secondary-btn {
+    background-color:  #2c2041;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.music_section p{
+    font-size: 13px;
+    text-align: center;
+
+}
+.music_section h2{
+    font-size: 62px;
+    font-weight: 500;
+    
+
+}
+.music_section h4{
+    font-size: 18px;
+    font-weight: 300;
+   width: 1200px;
+    padding: 0 40px;
+
+}
+.ipad-iphone-img{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+.about-music {
+    padding-top: 450px;
+    display: grid;
+    place-items: center;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+.about-music p{
+    font-size: 17px;
+    width: 1000px;
+    padding: 0 10px;
+} 
+.video_section{
+    min-height: 800px;
+    background-image: url(images/video.png) ;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+   
+    
+}
+.video_section .container{
+    display: flex;
+    flex-direction: column;
+     gap: 30px;
+     margin-top: -200px;
+    
+}
+.video_section h4{
+    font-size: 24px;
+    font-weight: 400;
+}
+.video_section p{
+    font-size: 17px;
+    width: 1000px;
+    padding: 0 10px;
+}
+.hero_section, .video_section{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card_section .container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: 100px 0;
+    width: 1100px;
+    margin-left: 112px;
+    
+}
+.card-content{
+    line-height: 1.6em; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-upper{
+    height: 220px;
+    background-color:#301c58;
+    display: flex;
+    
+    align-items: center;
+   
+    color: white;
+    padding: 20px;
+}
+.footer-upper .container{
+        margin-left: 110px;
+        display: flex;
+        justify-content: space-between;
+        gap: 150px;
+}
+.footer-links h4{
+ font-size: 22px;
+ font-weight: 500;
+ margin-bottom: 20px;
+ border-bottom: 2px solid white;
+
+}
+.footer-links ul{
+ list-style-type: none;
+}
+.footer-links li{
+ padding: 2px;
+}
+.footer-lower{
+    background-color: rgb(24 5 55);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
